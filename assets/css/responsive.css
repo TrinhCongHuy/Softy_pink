@@ -1,0 +1,76 @@
+/* Kích thước nhỏ hơn 1200px */
+@media (max-width: 1199.98px) {
+}
+
+/* Kích thước nhỏ hơn 992px */
+@media (max-width: 991.98px) {
+  /* header-main */
+  .header-main .main-nav .nav-list {
+    display: none;
+  }
+  .header-main .main-nav .icon-bars i {
+    display: block;
+  }
+  /* home-feature */
+  .home-feature {
+    margin-top: 0;
+  }
+  /* about */
+  #about .box-img {
+    text-align: center;
+  }
+  /* relationship */
+  .relationship .box-img {
+    float: unset;
+    text-align: center;
+  }
+  /* counter  */
+  .counter .count-item.decoration-top::after {
+    display: none;
+  }
+}
+
+/* Kích thước nhỏ hơn 768px */
+@media (max-width: 767.98px) {
+  /* feedback */
+  .feedback .box-item {
+    min-height: 240px;
+  }
+  .feedback .box-item .box-desc {
+    min-height: 50px;
+  }
+  /* counter */
+  .counter .count-item.decoration-bottom::after {
+    display: none;
+  }
+  /* blog */
+  .blog .box-item .box-img {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .blog .box-item .box-img img {
+    width: 100%;
+  }
+  .blog .box-item .box-title {
+    margin-top: 25px;
+  }
+}
+
+/* Kích thước nhỏ hơn 576px */
+@media (max-width: 575.98px) {
+  .welcome-area .content {
+    width: unset;
+    position: unset;
+    padding: 0 25px;
+  }
+  .welcome-area .content .content-title {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+  .welcome-area .content .content-desc {
+    font-size: 13px;
+    margin: 15px 0;
+  }
+}
