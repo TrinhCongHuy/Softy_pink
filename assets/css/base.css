@@ -25,7 +25,12 @@
   --bg-price: #f2f2fe;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
+  overflow-x: hidden;
   font-family: "Raleway", sans-serif;
 }
 a:hover {
